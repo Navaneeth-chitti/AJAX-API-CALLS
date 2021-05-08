@@ -1,0 +1,91 @@
+*{
+    background-color: cadetblue;
+}
+
+#Submit-city{
+    margin-top: 25px;
+    color: blue;
+    background-color: white;
+    border-radius: 9px;
+}
+
+#Submit-city:hover{
+    background-color: blue;
+    color: white;
+}
+
+.Ajax-Demo-Content p{
+ padding-top: 12px;
+ color: white;
+}
+
+.Ajax-Demo-Content h2{
+
+    color:orange;
+}
+
+#Text-Form{
+    border-radius: 8px;
+    width:250px;
+}
+table{
+    border:1px solid red;
+    border-collapse: collapse;
+}
+table tr th{
+    text-align: center;
+}
+table td{
+    padding:12px;
+    text-align: center;
+}
+
+.load-Icon{
+    position: absolute;
+    left:45%;
+    top:120px;
+    border:15px solid white;
+    border-radius: 50%;
+    border-top: 15px solid red;
+    width: 130px;
+    height: 130px;
+    -webkit-animation: spin 2s linear infinite; 
+    animation: spin 2s linear infinite ;
+    display:none;
+    
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .Form-Employee{
+      position: fixed;
+      left: 60%;
+      top:90px;
+      background-color: blueviolet;
+      padding:65px;
+      border-radius: 25px;
+  }
+
+  .sub-form{
+     
+      background-color: aqua;
+  }
+
+  #error{
+      display: none;
+  }
+  #error1{
+    display: none;
+}
+#error2{
+    display: none;
+}
